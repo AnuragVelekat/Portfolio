@@ -3,7 +3,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import invCalcImg from "@/public/investment-calculator.png";
-import reactEssImg from "@/public/react-essentials.png";
+import smsClassifierImg from "@/public/sms-classifier.png";
 import tictactoeImg from "@/public/tic-tac-toe.png";
 
 export const links = [
@@ -77,12 +77,12 @@ export const projectsData = [
     url: "https://anuragvelekat-tic-tac-toe.vercel.app/",
   },
   {
-    title: "React Essentials",
+    title: "SMS Classifier",
     description:
-      "I built a React web application that explains the fundamental concepts of React JS including Components, Props, JSX and State while mastering the fundamentals of React JS.",
-    tags: ["React", "Javascript", "CSS"],
-    imageUrl: reactEssImg,
-    url: "https://react-essentials-nine.vercel.app/",
+      "I built a Flask web application that classifies messages as Spam or Not Spam using the Naive Bayes Classifier in Python.",
+    tags: ["Flask", "SKLearn", "HTML", "CSS"],
+    imageUrl: smsClassifierImg,
+    url: "https://github.com/AnuragVelekat/SMS-Spam-Classification/",
   },
 ] as const;
 
